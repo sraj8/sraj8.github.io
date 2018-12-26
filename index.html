@@ -1,0 +1,584 @@
+<html lang="en">
+<head>
+	<title>Sylvester Savio Raj</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Website Developer,Web Designing,Android Development,Software Engineer,Full Stack developer,Back-end Engineer,Sylvester,Sylvester Savio Raj,Java,Software Development,Machine Learning Engineer,Data Scientist,python" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/skills-styles-stripped.css" type="text/css"/>
+	<script src="js/vendor/modernizr.js"></script>
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">Projects</a>
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<p style="margin-bottom:8cm;"></p>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h2 class="w3ls-bnrtext">Sylvester Savio Raj</h2>
+					<p class="w3ls-p">Computer Science Graduate student at University of Illinois at Chicago, Worked as a Software Engineer for 2.5 years</p>
+					<a href="https://github.com/sraj8" class="buy btn-wayra">Explore my work @Github</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>Pursuing Master of Science in Computer Science from University of Illinois at Chicago, my past professional and academic experiences have helped me gain expertise in the field of Software Engineering and Data Science</p>
+				<p></p> 
+			</div>
+			<a href="#contact" class="wthree- about-link scroll">Contact me</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid1">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">EDUCATION</h4>
+				<h5>UNIVERSITY OF ILLINOIS AT CHICAGO</h5>
+				<p><strong>Master of Science in Computer Science</strong></p>
+				<p style="color: rgb(24,24,24);">Relevant Courses : Computer Algorithms I, Natural Language Processing, Machine Learning, Data Mining, Object-Oriented Language, Software Development for Mobile Applications, etc.</p>
+				<h5>FR. CONCEICAO RODRIGUES COLLEGE OF ENGINEERING, UNIVERSITY OF MUMBAI, INDIA</h5>
+				<p><strong>Bachelor of Engineering in Computer Engineering</strong></p>
+				<p style="color: rgb(24,24,24);"><i>Publication : <a href="http://inpressco.com/wp-content/uploads/2015/06/Paper1022058-2062.pdf">Query Subtopic Mining from Search Log Data</a></i></p>
+				<p style="color: rgb(24,24,24);">Relevant Courses: Artificial Intelligence, Data Structures, Operating Systems, Software Engineering, Web Technology, etc.</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-building  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">WORK</h4>
+				<h5>PNC Financial Services, Pittsburgh</h5>
+				<p><i>Intern – Market Risk Management</i></p>
+				<p>
+					<ul style="color: rgb(24,24,24); font-size: 14px">
+						<li>Created clusters and implemented parallel processing using Dask in python</li>
+						<li>Developed a python tool for consolidating the P&L strings to analyze the changes in the interest rate derivatives VaR</li>
+						<li>Technologies used: Python, Dask, Sphinx, Django, Oracle, SQL, HTML, CSS, Tableau</li>
+					</ul>
+				</p>
+				<h5>University of Illinois at Chicago</h5>
+				<p><i>Graduate Research Assistant</i></p>
+				<p>
+					<ul style="color: rgb(24,24,24); font-size: 14px">
+						<li>Designed and developed a website which enables researchers to create assessments, visualize data and give guidance to communities</li>
+						<li>Technologies used: CakePHP, jQuery, Google App Scripts, MySQL, Chart.js, HTML, CSS</li>
+					</ul>
+				</p>
+				<h5>BNP Paribas India Solutions Pvt. Ltd., Mumbai</h5>
+				<p><i>Software Engineer – Corporate and Investment Banking</i></p>
+				<p>
+					<ul style="color: rgb(24,24,24); font-size: 14px">
+						<li>Developed and maintained various modules of Front Office application used by the clients for Trade</li>
+						<li>Analyzed and fixed issues faced by the clients while using the web application.</li>
+						<li>Technologies used: JSF RichFaces, AngularJS, Java, Spring, IBatis, Oracle, Maven, Websphere, JIRA</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-bullseye" wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Areas Of Interest</h4>
+				<h5>Software Development & Maintenance</h5>
+				<h5>Web Development (Full-Stack & Back-end)</h5>
+				<h5>Data Science</h5>
+				<h5>Machine Learning</h5>
+				<h5>Natural Language Processing</h5>
+				<h5>Android App Development</h5>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<h3 class="agileits-title" style="color: white">skills</h3>
+			<div class="col-md-5 w3_agileits-service-left">
+				<p><strong><i>Languages: JAVA, Python, PHP, SQL, C, C++</i></strong></p>
+				<p><strong><i>Web technologies: HTML, CSS, JavaScript, Ajax, JSON, XML, AngularJS, Django, JSF RichFaces, JSP, Servlet, Thymeleaf Frameworks: Spring, Spring boot, Hibernate, CakePHP</i></strong></p>
+				<p><strong><i>Machine Learning Tools: TensorFlow, NLTK, Pandas, Numpy, Dask, Scikit-learn</i></strong></p>
+				<p><strong><i>Database Management System: Oracle 10g, MySQL, IBatis, Apache Derby</i></strong></p>
+				<p><strong><i>Version Control Systems: Apache Subversion SVN, Serena Dimension, Bitbucket (Git)</i></strong></p>
+				<p><strong><i>Mobile technologies: Android</i></strong></p>
+			</div>
+			<div class="row" style="float:right;">
+				<div class="row">
+  					<div class="medium-6 medium-6 columns">
+      					<div class="SkillBar-stripes">
+        					<div id="Skill-stripes-JAVA"> <span class="Skill-Area">JAVA</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3sfadeIn fadeIn-3s fadeIn-Delay-3s">100%</span> </div>
+      					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-PYTHON"> <span class="Skill-Area ">Python</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">95%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-SPRING"> <span class="Skill-Area ">Spring</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">90%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-ML"> <span class="Skill-Area ">Machine Learning</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">95%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-CPP"> <span class="Skill-Area ">C/C++ </span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">50%</span> </div>
+    					</div>
+  					</div>
+  					<div class="medium-6 medium-6 columns">
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-HTML"> <span class="Skill-Area ">HTML</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">100%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-JS"> <span class="Skill-Area ">Javascript </span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">90%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-CSS"> <span class="Skill-Area ">CSS/CSS3 </span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">95%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-PHP"> <span class="Skill-Area ">PHP </span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">90%</span> </div>
+    					</div>
+    					<div class="SkillBar-stripes">
+      						<div id="Skill-stripes-SQL"> <span class="Skill-Area ">SQL</span> <span class="PercentText fadeIn fadeIn-3s fadeIn-Delay-3s responsive-percent">100%</span> </div>
+    					</div>
+				</div>
+  			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">Projects</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">Show all</a></li>
+					<li role="presentation"><a href="#java" role="tab" id="java-tab" data-toggle="tab" aria-controls="java">Java </a></li>
+					<li role="presentation"><a href="#web" role="tab" id="web-tab" data-toggle="tab" aria-controls="web">Web</a></li>
+					<li role="presentation"><a href="#ml" role="tab" id="ml-tab" data-toggle="tab" aria-controls="ml">Machine Learning</a></li>
+					<li role="presentation"><a href="#droid" role="tab" id="droid-tab" data-toggle="tab" aria-controls="ml">Android Apps</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/AST.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"> <a href="https://github.com/sraj8/Zero-Allocation-Hashing-Eclipse-ASTParser"><img src="images/AST.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Zero-Allocation-Hashing-Eclipse-ASTParser">AST Parser</h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/progen.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Random-Program-Generator"><img src="images/progen.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Random-Program-Generator">Program Generator</h5>
+									<p>  </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/mutation.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Mutation-Testing"><img src="images/mutation.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Mutation-Testing">Mutation Testing</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/ars.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/SANA-Airlines-Reservation-System"><img src="images/ars.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/SANA-Airlines-Reservation-System">Airlines Reservation</h5>
+									<p> </p>
+								</div>
+							</div>
+						</div>
+						<div class="w3_tab_img" style=" display: block; float: left">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/ml1.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Young-People-Survey-Machine-Learning-Project"><img src="images/ml1.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Young-People-Survey-Machine-Learning-Project">Empathy Predictor</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/nlp.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Protogonist-Antagonist-Predictor"><img src="images/nlp.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Protogonist-Antagonist-Predictor">Character Predictor</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/droid1.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Android-Projects/tree/master/Bind_Service_Implementation"><img src="images/droid1.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Android-Projects/tree/master/Bind_Service_Implementation">Bind Services</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="java" aria-labelledby="java-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/progen.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Random-Program-Generator"><img src="images/progen.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Random-Program-Generator">Program Generator</a></h5>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/AST.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"> <a href="https://github.com/sraj8/Zero-Allocation-Hashing-Eclipse-ASTParser"><img src="images/AST.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Zero-Allocation-Hashing-Eclipse-ASTParser">AST Parser</a></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/mutation.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Mutation-Testing"><img src="images/mutation.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Mutation-Testing">Mutation Testing</a></h5>
+									<p></p>
+								</div>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="web" aria-labelledby="web-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/ars.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/SANA-Airlines-Reservation-System"><img src="images/ars.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/SANA-Airlines-Reservation-System">Airlines Reservation</h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="ml" aria-labelledby="ml-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/ml1.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Young-People-Survey-Machine-Learning-Project"><img src="images/ml1.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Young-People-Survey-Machine-Learning-Project">Empathy Predictor</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/nlp.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Protogonist-Antagonist-Predictor"><img src="images/nlp.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Protogonist-Antagonist-Predictor">Character Predictor</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="droid" aria-labelledby="droid-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/droid1.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><a href="https://github.com/sraj8/Android-Projects/tree/master/Bind_Service_Implementation"><img src="images/droid1.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5><a href="https://github.com/sraj8/Android-Projects/tree/master/Bind_Service_Implementation">Bind Services</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+	<!-- ssr : add new sections -->
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Contact</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Email</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:sraj8@uic.edu">sraj8@uic.edu</a><br>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>+1(312)804-8728</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>730 South May Street Apt 2<br> Chicago,Illinois<br> United States
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Connect with me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a href="https://www.linkedin.com/in/sylvester-savio-raj"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/sraj8"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<div class="agileits_w3layouts-footer">
+		<p>© 2018 Sylvester Savio Raj</p>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
